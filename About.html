@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="about.css">
+    <title>Rosa Mae Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Rosa Mae <span>Loquinte</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="Home.html">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="About.html">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="Skills.html">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="Services.html">Services</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="Contact.html">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="Home.html">Home</a>
+                <a href="About.html">About</a>
+                <a href="Skills.html">Skills</a>
+                <a href="Services.html">Services</a>
+                <a href="Contact.html">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section id="about" class="about">
+        <div class="section-container">
+            <h1>About Me</h1>
+            <p>Hello! I'm Rosa Mae Loquinte, a fourth year college student taking Bachelor of Science in Information Technology at Caraga State University Cabadbaran Campus. I am a passionate web developer dedicated to creating beautiful and functional web applications. With a strong background in both front-end and back-end technologies, I strive to build solutions that are not only effective but also engaging.</p>
+            
+            <div class="section-container">
+                <h2>My Journey</h2>
+                <p>My journey into the world of web development started with a fascination for technology and design. After completing my formal education in computer science, I delved into the field of web development, honing my skills in various programming languages and frameworks. Over the years, I have worked on diverse projects, ranging from personal websites to complex applications, each contributing to my growth as a developer.</p>
+            </div>
+
+
+            <div class="section-container">
+                <h2>Interests</h2>
+                <p>Outside of web development, I have a keen interest in graphic design, photography, and exploring new technologies. I enjoy staying updated with industry trends and continuously learning new skills to keep pace with the evolving tech landscape.</p>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="script.js"></script>
+    </body>
+    </html>
